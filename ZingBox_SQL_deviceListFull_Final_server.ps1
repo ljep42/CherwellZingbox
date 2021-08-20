@@ -26,7 +26,7 @@ $pagelength = 100000
 $offset=1
 $key = ""
 
-$url = "https://lifebridgehealth.zingbox.com/pub/v4.0/device/list?customerid=lifebridgehealth"
+$url = "https://hostname.zingbox.com/pub/v4.0/device/list?customerid=customer"
 $uri = $url+"&key_id=$key_id&access_key=$key&detail=true&pagelength=$pagelength&offset=$offset"
 
 # added tls 1.2
